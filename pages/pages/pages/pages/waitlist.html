@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <meta name="description"
+        content="Investor expression of interest waiting list for RWAMDA land investment opportunities.">
+
+  <title>
+    Investor Waiting List | RWAMDA
+  </title>
+
+  <link rel="stylesheet"
+        href="../assets/css/styles.css">
+
+</head>
+
+<body>
+
+<div class="notice">
+  DEMO FORM: no information is transmitted or stored by this
+  static GitHub Pages version. Connect an approved secure
+  form/backend before collecting real investor data.
+</div>
+
+
+<header class="site-header">
+
+  <div class="container nav-wrap">
+
+    <a class="brand"
+       href="../index.html">
+
+      <span class="brand-mark">R</span>
+
+      <span>
+        RWAMDA
+        <small>LAND INVESTMENT</small>
+      </span>
+
+    </a>
+
+
+    <button class="menu-toggle"
+            aria-label="Open navigation"
+            aria-expanded="false">
+      ☰
+    </button>
+
+
+    <nav class="nav">
+
+      <a href="opportunities.html">
+        Opportunities
+      </a>
+
+      <a href="investor-process.html">
+        Investor Process
+      </a>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a href="resources.html">
+        Resources
+      </a>
+
+      <a href="contact.html">
+        Contact
+      </a>
+
+      <a class="nav-cta active"
+         href="waitlist.html">
+        Join Waiting List
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+
+<section class="page-hero">
+
+  <div class="container">
+
+    <p class="eyebrow">
+      INVESTOR EXPRESSION OF INTEREST
+    </p>
+
+    <h1>
+      Join the waiting list.
+    </h1>
+
+    <p>
+      Tell the project team what you intend to build.
+      Keep the first submission concise and commercially useful.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section class="section">
+
+  <div class="container form-layout">
+
+    <div>
+
+      <form id="investor-form"
+            novalidate>
+
+
+        <div class="form-grid">
+
+
+          <label>
+            Full name *
+
+            <input
+              name="name"
+              required
+              autocomplete="name">
+          </label>
+
+
+          <label>
+            Company / organisation *
+
+            <input
+              name="company"
+              required
+              autocomplete="organization">
+          </label>
+
+
+          <label>
+            Email *
+
+            <input
+              type="email"
+              name="email"
+              required
+              autocomplete="email">
+          </label>
+
+
+          <label>
+            Phone / WhatsApp
+
+            <input
+              name="phone"
+              autocomplete="tel">
+          </label>
+
+
+          <label>
+            Country *
+
+            <input
+              name="country"
+              required
+              autocomplete="country-name">
+          </label>
+
+
+          <label>
+            Company website
+
+            <input
+              type="url"
+              name="website"
+              placeholder="https://">
+          </label>
+
+
+          <label>
+            Investment sector *
+
+            <select
+              name="sector"
+              id="sector"
+              required>
+
+              <option value="">
+                Select a sector
+              </option>
+
+              <option value="agriculture">
+                Agriculture & Livestock
+              </option>
+
+              <option value="agro-processing">
+                Agro-processing
+              </option>
+
+              <option value="manufacturing">
+                Manufacturing
+              </option>
+
+              <option value="logistics">
+                Logistics & Warehousing
+              </option>
+
+              <option value="energy">
+                Renewable Energy
+              </option>
+
+              <option value="tourism">
+                Tourism & Hospitality
+              </option>
+
+              <option value="mixed-use">
+                Mixed-use Development
+              </option>
+
+              <option value="strategic">
+                Other Strategic Project
+              </option>
+
+            </select>
+
+          </label>
+
+
+          <label>
+            Approximate land requirement (hectares)
+
+            <input
+              type="number"
+              name="hectares"
+              min="0"
+              step="0.01"
+              placeholder="e.g. 250">
+          </label>
+
+
+          <label>
+            Estimated investment range
+
+            <select name="investment">
+
+              <option value="">
+                Select
+              </option>
+
+              <option>
+                Under USD 1 million
+              </option>
+
+              <option>
+                USD 1–10 million
+              </option>
+
+              <option>
+                USD 10–50 million
+              </option>
+
+              <option>
+                USD 50–100 million
+              </option>
+
+              <option>
+                USD 100–500 million
+              </option>
+
+              <option>
+                Above USD 500 million
+              </option>
+
+              <option>
+                To be determined
+              </option>
+
+            </select>
+
+          </label>
+
+
+          <label>
+            Expected project start
+
+            <select name="timeline">
+
+              <option value="">
+                Select
+              </option>
+
+              <option>
+                Within 12 months
+              </option>
+
+              <option>
+                1–2 years
+              </option>
+
+              <option>
+                2–5 years
+              </option>
+
+              <option>
+                5+ years
+              </option>
+
+              <option>
+                Not yet determined
+              </option>
+
+            </select>
+
+          </label>
+
+
+        </div>
+
+
+        <label>
+
+          What do you intend to build? *
+
+          <textarea
+            name="pitch"
+            id="pitch"
+            rows="8"
+            maxlength="1500"
+            required
+            placeholder="Describe the project, target market, approximate scale, jobs/value-chain impact, infrastructure needs and expected timeline.">
+          </textarea>
+
+          <span class="counter">
+            <span id="pitch-count">0</span>/1500
+          </span>
+
+        </label>
+
+
+        <label class="checkbox">
+
+          <input
+            type="checkbox"
+            name="acknowledgement"
+            required>
+
+          <span>
+            I understand that this expression of interest
+            does not reserve, allocate or guarantee land,
+            financing, permits, licences, incentives or
+            any other right.
+          </span>
+
+        </label>
+
+
+        <button
+          class="btn btn-primary"
+          type="submit">
+
+          Submit Expression of Interest
+
+        </button>
+
+
+        <div
+          id="form-status"
+          class="form-status"
+          role="status"
+          aria-live="polite">
+        </div>
+
+
+      </form>
+
+    </div>
+
+
+    <aside class="side-card">
+
+      <p class="eyebrow">
+        WHAT TO INCLUDE
+      </p>
+
+      <ul class="check-list">
+
+        <li>
+          Your company and investment background
+        </li>
+
+        <li>
+          What you intend to build
+        </li>
+
+        <li>
+          Approximate land requirement
+        </li>
+
+        <li>
+          Estimated investment size
+        </li>
+
+        <li>
+          Target project timeline
+        </li>
+
+        <li>
+          Key infrastructure requirements
+        </li>
+
+      </ul>
+
+
+      <div class="warning-box small">
+
+        <strong>
+          Production note:
+        </strong>
+
+        Do not collect sensitive investor information
+        through an unsecured static page.
+
+        Use an approved HTTPS form endpoint, database
+        or CRM with appropriate access controls and a
+        reviewed privacy notice.
+
+      </div>
+
+    </aside>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+
+  <div class="container footer-bottom">
+
+    <span>
+      © <span data-year></span>
+      RWAMDA Land Investment Portal
+    </span>
+
+    <a href="../index.html">
+      Home
+    </a>
+
+  </div>
+
+</footer>
+
+
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>
